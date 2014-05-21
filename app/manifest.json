@@ -1,8 +1,8 @@
 {
     "name": "Post2Slack",
-    "version": "0.1",
+    "version": "0.3",
     "manifest_version": 2,
-    "description": "Post2Slack is a small extension which shares the url of the current tab to a slack channel. It is pretty handy if you want to share URLs frequently.",
+    "description": "Post2Slack is a small extension which shares the url and title of the current tab to a slack channel.",
     "permissions": [
         "activeTab",
         "storage"
@@ -19,12 +19,12 @@
             "scripts/background.js"
         ]
     },
-  "browser_action": {
-    "default_icon": {                    
-        "19": "images/icon-19.png",       
-        "38": "images/icon-38.png"        
-    },
-    "default_title": "Post2Slack",
-    "default_popup": "popup.html"
-  }
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon-19.png",
+            "38": "images/icon-38.png"
+        },
+        "default_title": "Post2Slack",
+        "default_popup": "popup.html"
+    }
 }

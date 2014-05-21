@@ -1,10 +1,10 @@
 {
   "appName": {
-    "message": "SlackLinks",
-    "description": "The name of the application"
+    "message": "Post2Slack",
+    "description": "Post2Slack is a small extension which shares the url and title of the current tab to a slack channel."
   },
   "appDescription": {
-    "message": "My Chrome Extension",
-    "description": "The description of the application"
+    "message": "Post2Slack",
+    "description": "Post2Slack is a small extension which shares the url and title of the current tab to a slack channel."
   }
 }
