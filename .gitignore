@@ -10,3 +10,5 @@ package
 .editorconfig
 .gitattributes
 .jshintrc
+
+*.zip
