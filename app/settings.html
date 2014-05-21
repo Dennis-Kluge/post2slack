@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>        
+        <!-- bower:css -->
+        <!-- endbower -->
+
+        <!-- build:css styles/main.css -->
+        <!-- Loading Bootstrap -->
+        <link href="bower_components/flat-ui-official/bootstrap/css/bootstrap.css" rel="stylesheet">
+        <!-- Loading Flat UI -->
+        <link href="bower_components/flat-ui-official/css/flat-ui.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+        <!-- endbuild -->
+
+        <!-- bower:js -->
+        <!-- endbower -->
+
+        <!-- build:js scripts/popup.js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="scripts/settings.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+      <p><small><a href="popup.html"><< Back to posting</a></small></p>
+      <h6>Settings</h6>
+        <p>Please set up your Webhook URL and channel.</p>
+        <p id="infoFill" class="info">Please fill in all fields</p>
+        <form role="form">
+            <div class="form-group">
+              <label>Webhook URL</label>
+              <input class="form-control" name="webhook_url" placeholder="https://company.slack.com/services/hooks/incoming-webhook?token=foobar">
+            </div>            
+            <div class="form-group">
+              <label>Channel</label>
+              <input class="form-control" name="channel" placeholder="#foobar">
+            </div>            
+            <button type="submit" class="btn btn-primary">Save</button>            
+        </form>
+        <a href="#" id="testSettingsBtn"><small>Test Settings</small></a>
+    </body>
+</html>
