@@ -23,7 +23,7 @@ $(document).ready(function() {
     var payload = {
       "channel": settings().channel, 
       "username": "Post2Slack", 
-      "text": "Interesting Link: " + title + " | <" + url + ">", 
+      "text": title + " | <" + url + ">", 
       "icon_emoji": ":rocket:"
     };
     return "payload=" + JSON.stringify(payload);
